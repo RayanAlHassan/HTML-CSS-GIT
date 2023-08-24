@@ -7,6 +7,9 @@
 .countries--first .country--brazil {
   order: 5;
 }
+.countries--second :nth-child(5) {
+  order: 5;
+}
 .countries--second :nth-child(1) {
   order: 4;
 }
