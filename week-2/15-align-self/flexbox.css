@@ -6,28 +6,28 @@
 .countries--first .country--ethiopia {
   align-self: flex-end;
 }
-
-.countries--second .country--ethiopia {
-  display: flex;
-  align-self: flex-end;
-}
 .countries--second {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+}
+.countries--second .country--ethiopia {
+  display: flex;
+  align-self: flex-end;
 }
 
 .countries--third {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-wrap: wrap;
   justify-content: center;
 }
-.countries--third :nth-child(2),
-:nth-child(3),
-:nth-child(4) {
-  align-self: flex-end;
+
+.countries--third :nth-child(1),
+.countries--third :nth-child(5) {
+  align-self: flex-start;
 }
 
 .countries--fourth {
@@ -37,7 +37,7 @@
   align-items: flex-start;
 }
 .countries--fourth :nth-child(3),
-:nth-child(4) {
+.countries--fourth :nth-child(4) {
   display: flex;
   align-self: flex-start;
 }
