@@ -42,7 +42,7 @@
 .main-article {
   max-width: 50em;
 }
-main {
+.site-content {
   display: flex;
   justify-content: center;
 }
