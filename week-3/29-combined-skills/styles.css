@@ -30,10 +30,25 @@
   }
   .view-list__item {
     display: flex;
-    justify-content: space-between;
+    margin: 20px;
   }
+
   .views__all {
     height: auto;
     margin-left: auto;
   }
+}
+
+.main-article {
+  max-width: 50em;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.main-article p {
+  line-height: 1.5;
+}
+.codiTitle {
+  font-weight: 100;
 }
