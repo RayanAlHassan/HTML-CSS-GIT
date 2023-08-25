@@ -17,11 +17,4 @@
     display: flex;
     justify-content: space-between;
   }
-
-  /* a{
-    display: flex;
-  
-    align-self: flex-end;
-    justify-self: flex-end;
-} */
 }
